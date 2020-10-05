@@ -1,12 +1,11 @@
 <div class="container">
-    <h1>Inbox</h1>
     {{#each contacts}}
-<div class="media">
+    <div class="media">
   <img src="/images/user.jpg" class="mr-3" width="64" height="64">
   <div class="media-body">
     <h5 class="mt-0">{{name}}</h5>
-    <h3>{{email}}</h3>
     <p>{{message}}</p>
+    <small><a href="mailto:{{email}}">{{email}}</a></small>
     <small>{{date}}</small>
   </div>
 </div>
@@ -14,5 +13,5 @@
 {{else}}
 <p>No contacts found ..</p>
 {{/each}}
-<a href="/">Home Page</a>
+<p><a href="/">Home Page</a></p>
 </div>

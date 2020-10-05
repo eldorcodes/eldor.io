@@ -38,11 +38,6 @@ app.get('/',(req,res) => {
 app.get('/about',(req,res) => {
     res.render('about');
 });
-app.get('/liveChat',(req,res) => {
-    res.render('liveChat/chatRoom',{
-        title: 'Live Chat'
-    });
-});
 app.get('/contactme',(req,res) => {
     res.render('contact/contactme',{
         title:'Contacting'
