@@ -1,0 +1,74 @@
+ <!-- ========== Contact Me ===================== -->
+    <section id="contact-me">
+        <div class="container">
+            <h2 class="background">Keep In Touch</h2>
+            <div class="row">
+                <div class="col-md-4">
+										<div class="contact-info">
+												<h4>
+														<span>Phone:</span>
+												</h4>
+												<p>
+													<a href="tel:5555555555">310 415 0055</a>
+												</p>
+												<i class="fa fa-phone"></i>
+										</div>
+										<div class="contact-info">
+												<h4>
+														<span>Address:</span>
+												</h4>
+												<p>
+														San Francisco, California
+												</p>
+												<i class="fa fa-map-marker"></i>
+										</div>
+										<div class="contact-info">
+												<h4>
+														<span>Email:</span>
+												</h4>
+												<p>eldorcodes@gmail.com</p>
+												<i class="fa fa-envelope"></i>
+										</div>
+                </div>
+                <div class="col-md-8">
+                    <div class="contact-me-nested">
+                        <form name="ajax-form" id="ajax-form" action="/contactme" 
+                        method="post">
+                            <div class="col-lg-5">
+                                <div class="form-filed-container">
+                                    <span class="error-name" >please enter name</span>
+                                    <input name="name" id="name" type="text" placeholder="Name *" />
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="form-filed-container">
+                                    <span class="error-emailEmpty">please enter e-mail</span>
+                                    <span class="error-notValid">e-mail is not a valid format</span>
+                                    <input name="email" id="email" type="email" placeholder="Email *" />
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-filed-container">
+                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <button type="submit" class="send_message" id="send_message">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- ========== This Div Will Be animated When Message Sent Successfully ===================== -->
+                    <div class="success">
+                        <h4>
+                            Message Sent Successfully
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========== Google Map ===================== -->
+        <section id="map"></section>
+        <!-- ========== End Google Map ===================== -->
+
+    </section>
+    <!-- ========== End Contact Me ===================== -->

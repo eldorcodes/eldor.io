@@ -7,12 +7,13 @@
     "start": "node app.js"
   },
   "engines": {
-    "node":"12.18.3",
-    "npm":"6.14.6"
+    "node": "12.18.3",
+    "npm": "6.14.6"
   },
   "author": "Eldor Togaymurotov",
   "license": "ISC",
   "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",

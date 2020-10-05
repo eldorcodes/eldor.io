@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Inbox</h1>
+    {{#each contacts}}
+<div class="media">
+  <img src="/images/user.png" class="mr-3" width="64" height="64">
+  <div class="media-body">
+    <h5 class="mt-0">{{name}}</h5>
+    <h3>{{email}}</h3>
+    <p>{{message}}</p>
+    <small>{{date}}</small>
+  </div>
+</div>
+<hr>
+{{else}}
+<p>No contacts found ..</p>
+{{/each}}
+<a href="/">Home Page</a>
+</div>
